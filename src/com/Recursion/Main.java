@@ -19,6 +19,7 @@ public class Main {
         System.out.println(largest(root));
 
     }
+    // will call the recursive call for largest.
     public static int largest(Treenode<Integer> root){
         if(root==null){
             return Integer.MIN_VALUE;
